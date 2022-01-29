@@ -2,7 +2,7 @@ name: Deploy staging branch
 on:
   push:
     branches:
-      -deploy-staging
+      - deploy-staging
 jobs:
   Deploy-Staging-Branch:
     runs-on: ubuntu-latest
