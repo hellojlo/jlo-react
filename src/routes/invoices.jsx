@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import { Outlet, useSearchParams } from "react-router-dom";
 import { getInvoices } from "../data";
 import { QueryNavLink } from "../functions.js";
