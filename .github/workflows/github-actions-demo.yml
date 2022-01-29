@@ -13,5 +13,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
       - name: Deploy with rsync
-      run: rsync -avz ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/test/
+        run: rsync -avz ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/test/
       - run: echo "🍏 This job's status is ${{ job.status }}."
