@@ -16,10 +16,10 @@ class Navbar extends React.Component {
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="/">
-            <img src="logo.png" />
+            <img alt="logo" src="logo.png" />
           </a>
 
-          <a onClick={(e) => this.toggleMenu(e)} role="button" className="navbar-burger is-pulled-right" aria-label="menu" aria-expanded="false" data-target="navbar">
+          <a href="#" onClick={(e) => this.toggleMenu(e)} role="button" className="navbar-burger is-pulled-right" aria-label="menu" aria-expanded="false" data-target="navbar">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -38,13 +38,13 @@ class Navbar extends React.Component {
               </QueryNavLink>
 
               <div className="navbar-dropdown">
-                <a className="navbar-item">
+                <a href="#" className="navbar-item">
                   About
                 </a>
-                <a className="navbar-item">
+                <a href="#" className="navbar-item">
                   Jobs
                 </a>
-                <a className="navbar-item">
+                <a href="#" className="navbar-item">
                   Contact
                 </a>
                 <hr className="navbar-divider" />
