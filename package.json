@@ -25,7 +25,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -42,8 +45,5 @@
   "devDependencies": {
     "bulma": "^0.9.3",
     "node-sass": "^7.0.1"
-  },
-  "rules": {
-    "no-unused-vars": "off"
   }
 }
