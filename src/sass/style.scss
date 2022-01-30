@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+$footer-padding: 1rem 1rem ;
+
+@import "../../node_modules/bulma/bulma.sass";
+
+@include until($desktop) {
+  .navbar .navbar-brand {
+    text-align: center;
+    display: block;
+    width: 100%;
+
+    & > .navbar-item,
+    .navbar-link {
+      display: inline-block;
+    }
+
+    .navbar-burger {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
