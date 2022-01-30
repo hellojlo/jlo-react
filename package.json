@@ -37,13 +37,13 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "rules": {
-      "no-unused-vars": "off"
-    }
+    ]
   },
   "devDependencies": {
     "bulma": "^0.9.3",
     "node-sass": "^7.0.1"
+  },
+  "rules": {
+    "no-unused-vars": "off"
   }
 }
